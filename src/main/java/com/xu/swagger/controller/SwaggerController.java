@@ -9,6 +9,7 @@ public class SwaggerController {
     @GetMapping("/get")
     public String get() {
 
+        System.out.println("xxx");
         return "gan ba dei";
     }
 }
